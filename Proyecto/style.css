@@ -138,6 +138,10 @@ button {
     background-repeat: no-repeat, no-repeat;
   }
 
+  .info{
+    margin: 0 28px;
+  }
+
   .hero-image {
     display: none;
   }
