@@ -1,0 +1,16 @@
+.container{
+    height: 600px;
+    border: 5px solid skyblue;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px;
+    place-content: center;
+    place-items: end;
+}
+
+.item{
+    border: 5px solid black;
+    background-color: chartreuse;
+    font-size: 4rem;
+}

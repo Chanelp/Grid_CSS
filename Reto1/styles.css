@@ -1,0 +1,20 @@
+.container{
+    border: 5px solid skyblue;
+    background-color: bisque;
+
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+.item{
+    border: 5px solid palegreen;
+    background-color: chartreuse;
+    font-size: 1rem;
+
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
